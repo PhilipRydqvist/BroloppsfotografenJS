@@ -1,0 +1,3 @@
+function avTryckare () {
+    onclick=""
+}
