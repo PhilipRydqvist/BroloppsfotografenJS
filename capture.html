@@ -4,15 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capture 2</title>
+    
     <link rel="stylesheet" href="./styles/capture.css">
+    <link rel="manifest" href="manifest.json">
+
+    <title>Capture 2</title>
+    
 </head>
 <body>
     <div class="container">
-
+        <!-- <button id="start-camera">starta kamera</button>
+        <button id="take-picture">Ta kort</button> -->
+        <video src="" id="camera" autoplay></video>
+        <canvas id="picture"></canvas>
+        <button id="fotoavtryckare-knapp">FÖREVIGA ETT ÖGONBLICK</button>
+        
     </div>
     
-    <button class="fotoavtryckare-knapp">FÖREVIGA ETT ÖGONBLICK</button>
+    <section class="canvasContainer">
+        <h3>Galleri</h3>
+        <section id="gallery"></section>
+    </section>
+
+    
+    
     <script src="./js/capture.js"></script>
-</body>
+</body>s
 </html>

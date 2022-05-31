@@ -13,7 +13,7 @@ body {
     justify-content: center;
 }
 
-.fotoavtryckare-knapp {
+#fotoavtryckare-knapp {
     background-color: #FFFFFF;
     border: none;
     color: #2A2E30;
@@ -26,3 +26,22 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+    
+    /* för kamera funktionen */
+    video {
+        box-shadow: 1px 1px 10px black;
+        margin-top: 1rem;
+        border-radius: 0rem;
+    }
+    
+    canvas {
+        width: 640px;
+        height: 480px;
+    }
+
+    .canvasContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }

@@ -1,0 +1,24 @@
+{
+  "name": "broloppsfotografenjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhilipRydqvist/BroloppsfotografenJS.git"
+  },
+  "keywords": [],
+  "author": "Philip Rydqvist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhilipRydqvist/BroloppsfotografenJS/issues"
+  },
+  "homepage": "https://github.com/PhilipRydqvist/BroloppsfotografenJS#readme",
+  "dependencies": {
+    "https-localhost": "^4.7.1"
+  }
+}
