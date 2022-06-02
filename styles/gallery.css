@@ -1,0 +1,9 @@
+body {
+    background-color: #2A2E30;
+}
+
+.capturePageButton {
+    background-color: #2A2E30;
+    border: none;
+    float: right;
+}

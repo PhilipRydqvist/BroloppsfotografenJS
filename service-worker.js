@@ -42,6 +42,5 @@ async function updateCache(request) {
     const cache = await caches.open('v1');
 
     cache.put(request, response.clone());
-
     return response;
 }

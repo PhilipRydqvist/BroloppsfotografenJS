@@ -8,22 +8,21 @@
     <link rel="stylesheet" href="./styles/capture.css">
     <link rel="manifest" href="manifest.json">
 
-    <title>Capture 2</title>
+    <title>Capture</title>
     
 </head>
 <body>
-    <div class="container">
-        <!-- <button id="start-camera">starta kamera</button>
-        <button id="take-picture">Ta kort</button> -->
+    <button type="button" button class='galleryButton' onclick="window.location.href='gallery.html'"><img src="./assets/menubutton.png" height="36px" width="36px"/></button>
+    
+    <div id="videoContainer">
         <video src="" id="camera" autoplay></video>
-        <canvas id="picture"></canvas>
+        <br>
         <button id="fotoavtryckare-knapp">FÖREVIGA ETT ÖGONBLICK</button>
-        
     </div>
     
-    <section class="canvasContainer">
-        <h3>Galleri</h3>
-        <section id="gallery"></section>
+    <section id="pitureSection">
+        <canvas id="picture"></canvas>
+        <button id="fotoavtryckare-knappNyBild">FÅNGA ETT NYTT ÖGONBLICK</button>
     </section>
 
     

@@ -1,11 +1,14 @@
 body {
     background-color: #2A2E30;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
 }
 
-.container {
+.galleryButton {
+background-color: #2A2E30;
+border: none;
+float: right;
+}
+
+#videoContainer {
     padding-top: 100px;
     display: flex;
     flex-direction: column;
@@ -35,13 +38,21 @@ body {
     }
     
     canvas {
-        width: 640px;
-        height: 480px;
+        
     }
 
-    .canvasContainer {
+    #canvasContainer {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+
+    #gallery {
+        flex: 2 0 21%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
     }
