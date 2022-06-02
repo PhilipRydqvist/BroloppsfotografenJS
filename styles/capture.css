@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Noto Sans');
+
+* {
+    box-sizing: border-box;
+    font-family: Noto Sans;
+}
+
 body {
     background-color: #2A2E30;
 }
@@ -16,10 +23,11 @@ float: right;
     justify-content: center;
 }
 
-#fotoavtryckare-knapp {
+#fotoavtryckare-knapp, #fotoavtryckare-knappNyBild {
     background-color: #FFFFFF;
-    border: none;
+    /* border: none;
     color: #2A2E30;
+    cursor: pointer;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -27,19 +35,33 @@ float: right;
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 5px; */
+    width: 280px;
+    height: 25px;
+
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 16px;
+    line-height: 22px;
+    
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
 }
     
     /* för kamera funktionen */
-    video {
-        box-shadow: 1px 1px 10px black;
-        margin-top: 1rem;
-        border-radius: 0rem;
+    #videoDiv, #picture-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        min-width: 100vw;
     }
     
-    canvas {
-        
-    }
 
     #canvasContainer {
         display: flex;
@@ -48,11 +70,11 @@ float: right;
         justify-content: center;
     }
 
-    #gallery {
-        flex: 2 0 21%;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
+    #picture {
+        width: 640px;
+        height: 480px;
+    }
+    
+    #picture-div {
+        display: none;
     }
